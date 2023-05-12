@@ -7,26 +7,46 @@
     <title>Microsoft – Cloud, Computers, Apps & Gaming</title>
 </head>
 <body>
-    <div class="navbar flex justify-between px-4 items-center">
+    <!--Navbar-->
+    <div class="navbar flex justify-between md:py-4 px-4">
         <div class="flex items-center justify-center">
             <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
                 <div class="line h-0.5 w-6 my-1 bg-black"></div>
                 <div class="line h-0.5 w-6 my-1 bg-black"></div>
                 <div class="line h-0.5 w-6 my-1 bg-black"></div>
             </div>
-            <div class="search">
+            <div class="search md:hidden">
                 Search
             </div>
         </div>
-        <div class="logo md:order-first">
-            Microsoft
+        <div class="md:order-first md:flex md:items-end">
+            <div class="logo mx-2">
+                <img src="/images/logo.png" alt="logo" class="w-28 cursor-pointer">
+            </div>
+            <div class="features absolute md:static inset-0 px-4 mt-12 -translate-x-full md:translate-x-0 md:mt-0 md:flex gap-2 md:mx-2 bg-gray-100 md:bg-transparent text-sm">
+                <div class="hover:underline cursor-pointer"> Microsoft 365</div>
+                <div class="hover:underline cursor-pointer"> Teams </div>
+                <div class="hover:underline cursor-pointer"> Windows </div>
+                <div class="hover:underline cursor-pointer"> Surface </div>
+                <div class="hover:underline cursor-pointer"> Xbox </div>
+                <div class="hover:underline cursor-pointer"> Support </div>
+            </div>
         </div>
-        <div class="cart">
-            Cart
-        </div>
-        <div class="account">
-            Account
+        <div class="right flex gap-3 text-sm items-end">
+            <div class="all-microsoft hidden md:block">
+                All Microsoft
+            </div>
+            <div class="search hidden md:block">
+                Search
+            </div>
+            <div class="cart">
+                Cart
+            </div>
+            <div class="account">
+                Account
+            </div>
         </div>
     </div>
+
 </body>
 </html>
