@@ -6,7 +6,8 @@
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <title>Microsoft – Cloud, Computers, Apps & Gaming</title>
 </head>
-<body>
+<body class="m-auto 2xl:w-[1536px]">
+
     <!--Navbar-->
     <div class="navbar flex justify-between md:py-4 px-4 items-center md:items-end">
         <div class="flex items-center justify-center">
@@ -16,7 +17,7 @@
                 <div class="line h-0.5 w-6 my-1 bg-black"></div>
             </div>
             <div class="search md:hidden">
-                Search
+                <img src="/images/search.svg" alt="search-icon">
             </div>
         </div>
         <div class="md:order-first md:flex md:items-end">
@@ -37,13 +38,13 @@
                 All Microsoft
             </div>
             <div class="search hidden md:block">
-                Search
+                <img src="/images/search.svg" alt="search-icon">
             </div>
             <div class="cart">
-                Cart
+                <img class="w-6 cursor-pointer" src="./images/shopping-cart.png" alt="cart">
             </div>
             <div class="account">
-                Account
+                <img class="w-6 cursor-pointer" src="./images/account.png" alt="account">
             </div>
         </div>
     </div>
@@ -54,13 +55,33 @@
             <img class='w-[48rem] object-cover' src="/images/slider.png" alt="">
         </div>
         <div class="left flex flex-col justify-center gap-4 p-8">
-            <h1 class="text-3xl font-bold">Surface Pro 9</h1>
+            <h1 class="text-4xl font-medium">Surface Pro 9</h1>
             <p class="md:max-w-[28rem]">
                 Tablet versatility and laptop power — all in one ultra-portable device
             </p>
             <div class="buttons flex gap-10">
                 <button class="bg-[#0067b8] hover:bg-[#005ca5] text-white px-3 py-2">Learn More</button>
             </div>
+        </div>
+    </div>
+
+    <!--Microsoft Promotion-->
+    <div class="promo my-10 flex flex-wrap justify-center gap-8">
+        <div class="item flex flex-col gap-2 items-center justify-center">
+            <img src="/images/window_logo.png" alt="">
+            <p class="text-[#0067b8] underline cursor-pointer font-medium">Choose your Microsoft 365</p>
+        </div>
+        <div class="item flex flex-col gap-2 items-center justify-center">
+            <img src="/images/device.png" alt="">
+            <p class="text-[#0067b8] underline cursor-pointer font-medium">Explore Surface devices</p>
+        </div>
+        <div class="item flex flex-col gap-2 items-center justify-center">
+            <img src="/images/xbox.png" alt="">
+            <p class="text-[#0067b8] underline cursor-pointer font-medium">Buy Xbox games</p>
+        </div>
+        <div class="item flex flex-col gap-2 items-center justify-center">
+            <img src="/images/window_logo.png" alt="">
+            <p class="text-[#0067b8] underline cursor-pointer font-medium">Get Windows 11</p>
         </div>
     </div>
 
